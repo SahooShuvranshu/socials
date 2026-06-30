@@ -222,6 +222,7 @@
         }
 
         .discord-badge:hover {
+            transform: transform 0.15s ease;
             transform: translate(-1px, -1px);
             box-shadow: 2px 2px 0 #18191c;
         }
@@ -305,7 +306,7 @@
             right: 16px;
         }
 
-        .discord-contact-btn {
+        .discord-home-btn {
             background-color: #3ba55c;
             color: white;
             border: 2px solid #2d7d46;
@@ -323,14 +324,13 @@
             letter-spacing: 0.5px;
         }
 
-        .discord-contact-btn:hover {
+        .discord-home-btn:hover {
             background-color: #2d7d46;
             transform: translate(-1px, -1px);
             box-shadow: 3px 3px 0 #18191c;
         }
 
         .discord-resume-btn,
-        .discord-social-tree-btn,
         .discord-blog-btn {
             background-color: #5865f2;
             color: white;
@@ -350,20 +350,10 @@
         }
 
         .discord-resume-btn:hover,
-        .discord-social-tree-btn:hover:not(.active),
         .discord-blog-btn:hover {
             background-color: #4752c4;
             transform: translate(-1px, -1px);
             box-shadow: 3px 3px 0 #18191c;
-        }
-
-        /* Active navigation state for socials page */
-        .discord-social-tree-btn.active {
-            background-color: #4752c4;
-            border-color: #3b42a0;
-            transform: translate(1px, 1px);
-            box-shadow: 1px 1px 0 #18191c;
-            cursor: default;
         }
 
         @media (max-width: 768px) {
@@ -380,9 +370,8 @@
                 justify-content: center;
             }
 
-            .discord-contact-btn,
+            .discord-home-btn,
             .discord-resume-btn,
-            .discord-social-tree-btn,
             .discord-blog-btn {
                 position: static !important;
                 font-size: 12px;
@@ -558,16 +547,15 @@
         <!-- Profile Section -->
         <div class="discord-profile">
             <div class="discord-buttons-container">
-                <button class="discord-social-tree-btn active" title="My Socials">
-                    Socials
-                </button>
                 <button class="discord-blog-btn" title="View Blog">
                     Blog
                 </button>
                 <button class="discord-resume-btn" title="Download Resume">
                     Resume
                 </button>
-                <button class="discord-contact-btn" title="Contact Me">Contact</button>
+                <button class="discord-home-btn" title="Return to Home">
+                    Return To Home
+                </button>
             </div>
 
             <!-- Avatar -->
@@ -584,8 +572,6 @@
 
             <!-- Badges -->
             <div class="discord-badges">
-
-
                 <!-- Discord Nitro Badge -->
                 <div class="discord-badge" title="Discord Nitro">
                     <img src="https://raw.githubusercontent.com/PandaDevOfficial/badges-discord/main/assets/discordnitro.svg" alt="Nitro">
@@ -637,150 +623,8 @@
                 </div>
                 <div class="card-content">
                     <!-- Links Container -->
-                    <div class="links-container">
-                        <!-- Portfolio -->
-                        <a href="https://sahooshuvranshu.github.io/" class="social-link-item" target="_blank" rel="noopener noreferrer">
-                            <div class="link-left">
-                                <div class="link-icon-container">
-                                    <i class="fa-solid fa-user"></i>
-                                </div>
-                                <div class="link-details">
-                                    <span class="link-title">Main Portfolio</span>
-                                    <span class="link-desc">Explore my projects, education, certificates, and more.</span>
-                                </div>
-                            </div>
-                            <div class="link-arrow">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </a>
-
-                        <!-- Blog -->
-                        <a href="https://sahooshuvranshu.github.io/blog/" class="social-link-item" target="_blank" rel="noopener noreferrer">
-                            <div class="link-left">
-                                <div class="link-icon-container">
-                                    <i class="fa-solid fa-pen-nib"></i>
-                                </div>
-                                <div class="link-details">
-                                    <span class="link-title">Technical Blog</span>
-                                    <span class="link-desc">Read my latest articles on development, tips, and programming.</span>
-                                </div>
-                            </div>
-                            <div class="link-arrow">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </a>
-
-                        <!-- Resume -->
-                        <a href="https://sahooshuvranshu.github.io/media/resume.pdf" class="social-link-item" target="_blank" rel="noopener noreferrer">
-                            <div class="link-left">
-                                <div class="link-icon-container">
-                                    <i class="fa-solid fa-file-pdf"></i>
-                                </div>
-                                <div class="link-details">
-                                    <span class="link-title">Resume / CV</span>
-                                    <span class="link-desc">View or download my professional resume (PDF).</span>
-                                </div>
-                            </div>
-                            <div class="link-arrow">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </a>
-
-                        <!-- GitHub -->
-                        <a href="https://github.com/SahooShuvranshu" class="social-link-item" target="_blank" rel="noopener noreferrer">
-                            <div class="link-left">
-                                <div class="link-icon-container">
-                                    <i class="fa-brands fa-github"></i>
-                                </div>
-                                <div class="link-details">
-                                    <span class="link-title">GitHub</span>
-                                    <span class="link-desc">Browse my code repositories, scripts, and open-source contributions.</span>
-                                </div>
-                            </div>
-                            <div class="link-arrow">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </a>
-
-                        <!-- LinkedIn -->
-                        <a href="https://www.linkedin.com/in/sahooshuvranshu/" class="social-link-item" target="_blank" rel="noopener noreferrer">
-                            <div class="link-left">
-                                <div class="link-icon-container">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </div>
-                                <div class="link-details">
-                                    <span class="link-title">LinkedIn</span>
-                                    <span class="link-desc">Connect with me professionally and check out my journey.</span>
-                                </div>
-                            </div>
-                            <div class="link-arrow">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </a>
-
-                        <!-- Bluesky -->
-                        <a href="https://bsky.app/profile/sahooshuvranshu.me" class="social-link-item" target="_blank" rel="noopener noreferrer">
-                            <div class="link-left">
-                                <div class="link-icon-container">
-                                    <i class="fa-brands fa-bluesky"></i>
-                                </div>
-                                <div class="link-details">
-                                    <span class="link-title">Bluesky</span>
-                                    <span class="link-desc">Follow my latest updates and micro-blogs on Bluesky.</span>
-                                </div>
-                            </div>
-                            <div class="link-arrow">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </a>
-
-                        <!-- Twitter / X -->
-                        <a href="https://x.com/Its_Shuvranshu" class="social-link-item" target="_blank" rel="noopener noreferrer">
-                            <div class="link-left">
-                                <div class="link-icon-container">
-                                    <i class="fa-brands fa-x-twitter"></i>
-                                </div>
-                                <div class="link-details">
-                                    <span class="link-title">Twitter / X</span>
-                                    <span class="link-desc">Get quick updates, developer tweets, and tech insights.</span>
-                                </div>
-                            </div>
-                            <div class="link-arrow">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </a>
-
-                        <!-- Discord -->
-                        <a href="https://discord.com/users/879695880528216075" class="social-link-item" target="_blank" rel="noopener noreferrer">
-                            <div class="link-left">
-                                <div class="link-icon-container">
-                                    <i class="fa-brands fa-discord"></i>
-                                </div>
-                                <div class="link-details">
-                                    <span class="link-title">Discord DM</span>
-                                    <span class="link-desc">Message me directly or add me as a friend on Discord.</span>
-                                </div>
-                            </div>
-                            <div class="link-arrow">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </a>
-
-                        <!-- Email -->
-                        <a href="mailto:sahooshuvranshusekhar@gmail.com" class="social-link-item">
-                            <div class="link-left">
-                                <div class="link-icon-container">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </div>
-                                <div class="link-details">
-                                    <span class="link-title">Direct Email</span>
-                                    <span class="link-desc">Send me an email for collaborations or opportunities.</span>
-                                </div>
-                            </div>
-                            <div class="link-arrow">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </a>
+                    <div class="links-container" id="links-list">
+                        <!-- Dynamically loaded from links.json -->
                     </div>
                 </div>
             </div>
@@ -798,6 +642,38 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
+            // Load links from JSON
+            const linksList = document.getElementById('links-list');
+            if (linksList) {
+                fetch('links.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        linksList.innerHTML = '';
+                        data.forEach(link => {
+                            const isMail = link.url.startsWith('mailto:');
+                            const targetAttr = isMail ? '' : 'target="_blank" rel="noopener noreferrer"';
+                            const linkHtml = `
+                                <a href="${link.url}" class="social-link-item" ${targetAttr}>
+                                    <div class="link-left">
+                                        <div class="link-icon-container">
+                                            <i class="${link.icon}"></i>
+                                        </div>
+                                        <div class="link-details">
+                                            <span class="link-title">${link.title}</span>
+                                            <span class="link-desc">${link.desc}</span>
+                                        </div>
+                                    </div>
+                                    <div class="link-arrow">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </div>
+                                </a>
+                            `;
+                            linksList.innerHTML += linkHtml;
+                        });
+                    })
+                    .catch(error => console.error('Error loading links:', error));
+            }
+
             // Blog button
             const blogBtn = document.querySelector('.discord-blog-btn');
             if (blogBtn) {
@@ -814,11 +690,11 @@
                 });
             }
 
-            // Contact button
-            const contactBtn = document.querySelector('.discord-contact-btn');
-            if (contactBtn) {
-                contactBtn.addEventListener('click', function () {
-                    window.open('https://sahooshuvranshu.github.io/contact.html', '_blank');
+            // Home button
+            const homeBtn = document.querySelector('.discord-home-btn');
+            if (homeBtn) {
+                homeBtn.addEventListener('click', function () {
+                    window.open('https://sahooshuvranshu.github.io/', '_self');
                 });
             }
         });

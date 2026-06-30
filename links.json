@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Main Portfolio",
+    "desc": "Explore my projects, education, certificates, and more.",
+    "url": "https://sahooshuvranshu.github.io/",
+    "icon": "fa-solid fa-user"
+  },
+  {
+    "title": "Technical Blog",
+    "desc": "Read my latest articles on development, tips, and programming.",
+    "url": "https://sahooshuvranshu.github.io/blog/",
+    "icon": "fa-solid fa-pen-nib"
+  },
+  {
+    "title": "Resume / CV",
+    "desc": "View or download my professional resume (PDF).",
+    "url": "https://sahooshuvranshu.github.io/media/resume.pdf",
+    "icon": "fa-solid fa-file-pdf"
+  },
+  {
+    "title": "GitHub",
+    "desc": "Browse my code repositories, scripts, and open-source contributions.",
+    "url": "https://github.com/SahooShuvranshu",
+    "icon": "fa-brands fa-github"
+  },
+  {
+    "title": "LinkedIn",
+    "desc": "Connect with me professionally and check out my journey.",
+    "url": "https://www.linkedin.com/in/sahooshuvranshu/",
+    "icon": "fa-brands fa-linkedin-in"
+  },
+  {
+    "title": "Bluesky",
+    "desc": "Follow my latest updates and micro-blogs on Bluesky.",
+    "url": "https://bsky.app/profile/sahooshuvranshu.me",
+    "icon": "fa-brands fa-bluesky"
+  },
+  {
+    "title": "Twitter / X",
+    "desc": "Get quick updates, developer tweets, and tech insights.",
+    "url": "https://x.com/Its_Shuvranshu",
+    "icon": "fa-brands fa-x-twitter"
+  },
+  {
+    "title": "Discord DM",
+    "desc": "Message me directly or add me as a friend on Discord.",
+    "url": "https://discord.com/users/879695880528216075",
+    "icon": "fa-brands fa-discord"
+  },
+  {
+    "title": "Direct Email",
+    "desc": "Send me an email for collaborations or opportunities.",
+    "url": "mailto:sahooshuvranshusekhar@gmail.com",
+    "icon": "fa-solid fa-envelope"
+  }
+]
