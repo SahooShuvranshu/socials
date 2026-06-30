@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Socials - Shuvranshu Sekhar Sahoo</title>
+    <meta name="title" content="Socials - Shuvranshu Sekhar Sahoo">
+    <meta name="description" content="Connect with Shuvranshu Sekhar Sahoo across the web. Access my portfolio, technical blog, GitHub, LinkedIn, and social profiles.">
+    <meta name="author" content="Shuvranshu Sekhar Sahoo">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/70892515?v=4">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #36393f;
+            background-image: url('https://i.pinimg.com/originals/c1/fc/9d/c1fc9d7f6ae08d56f2b84e81799790a5.gif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .discord-container {
+            background-color: #2f3136;
+            border-radius: 0;
+            max-width: 600px;
+            width: 60vw;
+            margin: 40px auto;
+            overflow: visible;
+            box-shadow: 6px 6px 0 #18191c;
+            border: 2px solid #40444b;
+        }
+
+        @media (max-width: 768px) {
+            .discord-container {
+                width: 95vw;
+                margin: 20px auto;
+                border-radius: 0;
+                box-shadow: 4px 4px 0 #18191c;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .discord-container {
+                width: 98vw;
+                margin: 10px auto;
+                border-radius: 0;
+                box-shadow: 3px 3px 0 #18191c;
+            }
+        }
+
+        .discord-banner {
+            height: 200px;
+            background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+            background-image: url('https://i.pinimg.com/originals/91/fc/5d/91fc5d197c783d67f782d9f25c76819a.gif');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border-radius: 0;
+        }
+
+        @media (max-width: 480px) {
+            .discord-banner {
+                height: 130px;
+            }
+        }
+
+        .discord-profile {
+            padding: 16px;
+            background-color: #2f3136;
+            position: relative;
+            margin-top: -40px;
+            border-radius: 0;
+        }
+
+        .discord-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 6px solid #2f3136;
+            background-color: #2f3136;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        @media (max-width: 480px) {
+            .discord-avatar {
+                width: 85px;
+                height: 85px;
+                border-width: 4px;
+                margin-top: -10px;
+            }
+        }
+
+        .discord-username {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            font-family: 'Courier New', Courier, monospace;
+            letter-spacing: 0.5px;
+        }
+
+        .discord-discriminator {
+            color: #b9bbbe;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        @media (max-width: 768px) {
+            .discord-username {
+                font-size: 18px;
+                justify-content: flex-start;
+                text-align: left;
+            }
+
+            .discord-discriminator {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .discord-username {
+                font-size: 16px;
+                flex-direction: row;
+                gap: 4px;
+                justify-content: flex-start;
+                text-align: left;
+            }
+
+            .discord-discriminator {
+                font-size: 16px;
+            }
+        }
+
+        .discord-verified-badge-animated {
+            width: 22px;
+            height: 22px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0px;
+            position: relative;
+            bottom: 1.5px;
+            flex-shrink: 0;
+        }
+
+        @media (max-width: 480px) {
+            .discord-verified-badge-animated {
+                width: 18px;
+                height: 18px;
+                margin-left: 0px;
+                bottom: 1px;
+            }
+        }
+
+        .discord-badges {
+            display: flex;
+            gap: 8px;
+            margin: 8px 0;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+
+        @media (max-width: 768px) {
+            .discord-badges {
+                gap: 6px;
+                margin: 12px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .discord-badges {
+                gap: 4px;
+                margin: 16px 0 8px 0;
+            }
+        }
+
+        .discord-badge {
+            width: 22px;
+            height: 22px;
+            border-radius: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            position: relative;
+        }
+
+        .discord-badge img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .discord-badge:hover {
+            transform: translate(-1px, -1px);
+            box-shadow: 2px 2px 0 #18191c;
+        }
+
+        /* Tooltip styling */
+        .discord-badge::before {
+            content: attr(title);
+            position: absolute;
+            bottom: calc(100% + 8px);
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #18181c;
+            color: #ffffff;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 500;
+            white-space: nowrap;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transition: opacity 0.2s ease, visibility 0.2s ease;
+            z-index: 9999;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .discord-badge::after {
+            content: '';
+            position: absolute;
+            bottom: calc(100% + 2px);
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 6px solid #18181c;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s ease, visibility 0.2s ease;
+            z-index: 9999;
+        }
+
+        .discord-badge:hover::before,
+        .discord-badge:hover::after {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Status box */
+        .status-box {
+            background-color: #202225;
+            border-radius: 0;
+            padding: 10px 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border: 2px solid #40444b;
+            box-shadow: 2px 2px 0 #18191c;
+            margin-top: 12px;
+        }
+
+        .status-emoji {
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+
+        .status-text {
+            color: #b9bbbe;
+            font-size: 13px;
+            line-height: 1.4;
+        }
+
+        /* Buttons Container & Navigation Styles */
+        .discord-buttons-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            position: absolute;
+            top: 16px;
+            right: 16px;
+        }
+
+        .discord-contact-btn {
+            background-color: #3ba55c;
+            color: white;
+            border: 2px solid #2d7d46;
+            border-radius: 0;
+            padding: 8px 12px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 2px 0 #18191c;
+            font-family: 'Courier New', Courier, monospace;
+            letter-spacing: 0.5px;
+        }
+
+        .discord-contact-btn:hover {
+            background-color: #2d7d46;
+            transform: translate(-1px, -1px);
+            box-shadow: 3px 3px 0 #18191c;
+        }
+
+        .discord-resume-btn,
+        .discord-social-tree-btn,
+        .discord-blog-btn {
+            background-color: #5865f2;
+            color: white;
+            border: 2px solid #4752c4;
+            border-radius: 0;
+            padding: 8px 12px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 2px 0 #18191c;
+            font-family: 'Courier New', Courier, monospace;
+            letter-spacing: 0.5px;
+        }
+
+        .discord-resume-btn:hover,
+        .discord-social-tree-btn:hover:not(.active),
+        .discord-blog-btn:hover {
+            background-color: #4752c4;
+            transform: translate(-1px, -1px);
+            box-shadow: 3px 3px 0 #18191c;
+        }
+
+        /* Active navigation state for socials page */
+        .discord-social-tree-btn.active {
+            background-color: #4752c4;
+            border-color: #3b42a0;
+            transform: translate(1px, 1px);
+            box-shadow: 1px 1px 0 #18191c;
+            cursor: default;
+        }
+
+        @media (max-width: 768px) {
+            .discord-profile {
+                position: relative;
+                padding-top: 70px;
+            }
+
+            .discord-buttons-container {
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                left: 16px;
+                justify-content: center;
+            }
+
+            .discord-contact-btn,
+            .discord-resume-btn,
+            .discord-social-tree-btn,
+            .discord-blog-btn {
+                position: static !important;
+                font-size: 12px;
+                padding: 7px 10px;
+                flex: 1 1 calc(50% - 4px);
+                min-width: 90px;
+                max-width: 120px;
+                justify-content: center;
+                margin: 2px;
+            }
+        }
+
+        /* Content Card Section */
+        .discord-about-card {
+            background-color: #2f3136;
+            border-radius: 0;
+            margin-bottom: 16px;
+            border: 2px solid #40444b;
+            box-shadow: 4px 4px 0 #18191c;
+            overflow: hidden;
+        }
+
+        .card-header {
+            background-color: #202225;
+            padding: 10px 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border-bottom: 2px solid #18191c;
+            font-family: 'Courier New', monospace;
+            letter-spacing: 1px;
+        }
+
+        .header-icon {
+            font-size: 16px;
+        }
+
+        .header-title {
+            color: #8e9297;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .card-content {
+            padding: 16px;
+        }
+
+        /* Link items styling */
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .social-link-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #202225;
+            border: 2px solid #40444b;
+            border-radius: 0;
+            padding: 12px 16px;
+            color: #dcddde;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            box-shadow: 2px 2px 0 #18191c;
+        }
+
+        .social-link-item:hover {
+            background-color: #2f3136;
+            border-color: #5865f2;
+            transform: translate(-2px, -2px);
+            box-shadow: 4px 4px 0 #18191c;
+        }
+
+        .link-left {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .link-icon-container {
+            width: 32px;
+            height: 32px;
+            background-color: #18191c;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #b9bbbe;
+            transition: color 0.2s ease, background-color 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .social-link-item:hover .link-icon-container {
+            background-color: #5865f2;
+            color: #ffffff;
+        }
+
+        .link-icon-container i {
+            font-size: 15px;
+        }
+
+        .link-details {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .link-title {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .link-desc {
+            color: #72767d;
+            font-size: 11px;
+        }
+
+        .social-link-item:hover .link-desc {
+            color: #b9bbbe;
+        }
+
+        .link-arrow {
+            color: #4f545c;
+            transition: transform 0.2s ease, color 0.2s ease;
+        }
+
+        .social-link-item:hover .link-arrow {
+            transform: translateX(2px);
+            color: #ffffff;
+        }
+
+        /* Footer styling */
+        .discord-footer {
+            margin-top: 16px;
+            padding: 16px;
+            background-color: #202225;
+            border-top: 2px solid #40444b;
+            text-align: center;
+        }
+
+        .discord-footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .discord-footer-text {
+            color: #72767d;
+            font-size: 11px;
+            font-family: 'Courier New', Courier, monospace;
+            letter-spacing: 0.5px;
+        }
+
+        .discord-footer-highlight {
+            color: #5865f2;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="discord-container">
+        <!-- Banner -->
+        <div class="discord-banner"></div>
+
+        <!-- Profile Section -->
+        <div class="discord-profile">
+            <div class="discord-buttons-container">
+                <button class="discord-social-tree-btn active" title="My Socials">
+                    Socials
+                </button>
+                <button class="discord-blog-btn" title="View Blog">
+                    Blog
+                </button>
+                <button class="discord-resume-btn" title="Download Resume">
+                    Resume
+                </button>
+                <button class="discord-contact-btn" title="Contact Me">Contact</button>
+            </div>
+
+            <!-- Avatar -->
+            <img src="https://avatars.githubusercontent.com/u/70892515?v=4" alt="Profile Avatar" class="discord-avatar">
+
+            <!-- Username -->
+            <div class="discord-username">
+                Shuvranshu Sekhar Sahoo<span class="discord-discriminator">#2801</span>
+                <div class="discord-verified-badge-animated" title="Verified Account">
+                    <img src="https://raw.githubusercontent.com/PandaDevOfficial/badges-discord/main/assets/server/Verified.svg"
+                        alt="Verified" style="width: 100%; height: 100%; display: block;">
+                </div>
+            </div>
+
+            <!-- Badges -->
+            <div class="discord-badges">
+                <!-- Discord Partner Badge -->
+                <div class="discord-badge" title="Discord Partner">
+                    <img src="https://raw.githubusercontent.com/PandaDevOfficial/badges-discord/main/assets/discordpartner.svg" alt="Partner">
+                </div>
+
+                <!-- Early Verified Bot Developer Badge -->
+                <div class="discord-badge" title="Early Verified Bot Developer">
+                    <img src="https://raw.githubusercontent.com/PandaDevOfficial/badges-discord/main/assets/discordbotdev.svg" alt="Bot Dev">
+                </div>
+
+                <!-- Certified Moderator Alumni Badge -->
+                <div class="discord-badge" title="Certified Moderator Alumni">
+                    <img src="https://raw.githubusercontent.com/PandaDevOfficial/badges-discord/main/assets/discordmod.svg" alt="Moderator">
+                </div>
+
+                <!-- Discord Nitro Badge -->
+                <div class="discord-badge" title="Discord Nitro">
+                    <img src="https://raw.githubusercontent.com/PandaDevOfficial/badges-discord/main/assets/discordnitro.svg" alt="Nitro">
+                </div>
+
+                <!-- HypeSquad Balance Badge -->
+                <div class="discord-badge" title="HypeSquad Balance">
+                    <img src="https://raw.githubusercontent.com/PandaDevOfficial/badges-discord/main/assets/hypesquadbalance.svg" alt="HypeSquad Balance">
+                </div>
+
+                <!-- Active Developer Badge -->
+                <div class="discord-badge" title="Active Developer">
+                    <img src="https://raw.githubusercontent.com/PandaDevOfficial/badges-discord/main/assets/activedeveloper.svg" alt="Active Developer">
+                </div>
+
+                <!-- Early Supporter Badge -->
+                <div class="discord-badge" title="Early Supporter">
+                    <img src="https://raw.githubusercontent.com/PandaDevOfficial/badges-discord/main/assets/discordearlysupporter.svg" alt="Early Supporter">
+                </div>
+
+                <!-- Bug Hunter Tier 2 Badge -->
+                <div class="discord-badge" title="Discord Bug Hunter (Tier 2)">
+                    <img src="https://raw.githubusercontent.com/PandaDevOfficial/badges-discord/main/assets/discordbughunter2.svg" alt="Bug Hunter">
+                </div>
+
+                <!-- Completed a Quest Badge -->
+                <div class="discord-badge" title="Completed a Quest">
+                    <img src="https://raw.githubusercontent.com/PandaDevOfficial/badges-discord/main/assets/quest.png" alt="Quest">
+                </div>
+
+                <!-- Orbs Apprentice Badge -->
+                <div class="discord-badge" title="Orbs Apprentice">
+                    <img src="https://raw.githubusercontent.com/PandaDevOfficial/badges-discord/main/assets/orb.svg" alt="Orbs">
+                </div>
+            </div>
+            
+            <!-- Custom status box -->
+            <div class="status-box">
+                <span class="status-emoji">💻</span>
+                <span class="status-text">Building modern digital solutions</span>
+            </div>
+        </div>
+
+        <div class="discord-section" style="padding: 16px; margin: 0;">
+            <div class="discord-about-card">
+                <div class="card-header">
+                    <span class="header-icon">🔗</span>
+                    <span class="header-title">CONNECT WITH ME</span>
+                </div>
+                <div class="card-content">
+                    <!-- Links Container -->
+                    <div class="links-container">
+                        <!-- Portfolio -->
+                        <a href="https://sahooshuvranshu.github.io/" class="social-link-item" target="_blank" rel="noopener noreferrer">
+                            <div class="link-left">
+                                <div class="link-icon-container">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="link-details">
+                                    <span class="link-title">Main Portfolio</span>
+                                    <span class="link-desc">Explore my projects, education, certificates, and more.</span>
+                                </div>
+                            </div>
+                            <div class="link-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+
+                        <!-- Blog -->
+                        <a href="https://sahooshuvranshu.github.io/blog/" class="social-link-item" target="_blank" rel="noopener noreferrer">
+                            <div class="link-left">
+                                <div class="link-icon-container">
+                                    <i class="fa-solid fa-pen-nib"></i>
+                                </div>
+                                <div class="link-details">
+                                    <span class="link-title">Technical Blog</span>
+                                    <span class="link-desc">Read my latest articles on development, tips, and programming.</span>
+                                </div>
+                            </div>
+                            <div class="link-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+
+                        <!-- Resume -->
+                        <a href="https://sahooshuvranshu.github.io/media/resume.pdf" class="social-link-item" target="_blank" rel="noopener noreferrer">
+                            <div class="link-left">
+                                <div class="link-icon-container">
+                                    <i class="fa-solid fa-file-pdf"></i>
+                                </div>
+                                <div class="link-details">
+                                    <span class="link-title">Resume / CV</span>
+                                    <span class="link-desc">View or download my professional resume (PDF).</span>
+                                </div>
+                            </div>
+                            <div class="link-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+
+                        <!-- GitHub -->
+                        <a href="https://github.com/SahooShuvranshu" class="social-link-item" target="_blank" rel="noopener noreferrer">
+                            <div class="link-left">
+                                <div class="link-icon-container">
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                                <div class="link-details">
+                                    <span class="link-title">GitHub</span>
+                                    <span class="link-desc">Browse my code repositories, scripts, and open-source contributions.</span>
+                                </div>
+                            </div>
+                            <div class="link-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/sahooshuvranshu/" class="social-link-item" target="_blank" rel="noopener noreferrer">
+                            <div class="link-left">
+                                <div class="link-icon-container">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                                <div class="link-details">
+                                    <span class="link-title">LinkedIn</span>
+                                    <span class="link-desc">Connect with me professionally and check out my journey.</span>
+                                </div>
+                            </div>
+                            <div class="link-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+
+                        <!-- Bluesky -->
+                        <a href="https://bsky.app/profile/sahooshuvranshu.me" class="social-link-item" target="_blank" rel="noopener noreferrer">
+                            <div class="link-left">
+                                <div class="link-icon-container">
+                                    <i class="fa-brands fa-bluesky"></i>
+                                </div>
+                                <div class="link-details">
+                                    <span class="link-title">Bluesky</span>
+                                    <span class="link-desc">Follow my latest updates and micro-blogs on Bluesky.</span>
+                                </div>
+                            </div>
+                            <div class="link-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+
+                        <!-- Twitter / X -->
+                        <a href="https://x.com/Its_Shuvranshu" class="social-link-item" target="_blank" rel="noopener noreferrer">
+                            <div class="link-left">
+                                <div class="link-icon-container">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </div>
+                                <div class="link-details">
+                                    <span class="link-title">Twitter / X</span>
+                                    <span class="link-desc">Get quick updates, developer tweets, and tech insights.</span>
+                                </div>
+                            </div>
+                            <div class="link-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+
+                        <!-- Discord -->
+                        <a href="https://discord.com/users/879695880528216075" class="social-link-item" target="_blank" rel="noopener noreferrer">
+                            <div class="link-left">
+                                <div class="link-icon-container">
+                                    <i class="fa-brands fa-discord"></i>
+                                </div>
+                                <div class="link-details">
+                                    <span class="link-title">Discord DM</span>
+                                    <span class="link-desc">Message me directly or add me as a friend on Discord.</span>
+                                </div>
+                            </div>
+                            <div class="link-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+
+                        <!-- Email -->
+                        <a href="mailto:sahooshuvranshusekhar@gmail.com" class="social-link-item">
+                            <div class="link-left">
+                                <div class="link-icon-container">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="link-details">
+                                    <span class="link-title">Direct Email</span>
+                                    <span class="link-desc">Send me an email for collaborations or opportunities.</span>
+                                </div>
+                            </div>
+                            <div class="link-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="discord-footer">
+            <div class="discord-footer-content">
+                <div class="discord-footer-text">
+                    Made with 💜 and ☕ by <span class="discord-footer-highlight">Shuvranshu Sekhar Sahoo</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Blog button
+            const blogBtn = document.querySelector('.discord-blog-btn');
+            if (blogBtn) {
+                blogBtn.addEventListener('click', function () {
+                    window.open('https://sahooshuvranshu.github.io/blog/', '_blank');
+                });
+            }
+
+            // Resume button
+            const resumeBtn = document.querySelector('.discord-resume-btn');
+            if (resumeBtn) {
+                resumeBtn.addEventListener('click', function () {
+                    window.open('https://sahooshuvranshu.github.io/media/resume.pdf', '_blank');
+                });
+            }
+
+            // Contact button
+            const contactBtn = document.querySelector('.discord-contact-btn');
+            if (contactBtn) {
+                contactBtn.addEventListener('click', function () {
+                    window.open('https://sahooshuvranshu.github.io/contact.html', '_blank');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
