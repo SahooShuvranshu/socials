@@ -35,6 +35,13 @@
     "color": "#0A66C2"
   },
   {
+    "title": "Twitter / X",
+    "desc": "Get quick updates, developer tweets, and tech insights.",
+    "url": "https://x.com/Its_Shuvranshu",
+    "icon": "fa-brands fa-x-twitter",
+    "color": "#000000"
+  },
+  {
     "title": "Bluesky",
     "desc": "Follow my latest updates and micro-blogs on Bluesky.",
     "url": "https://bsky.app/profile/sahooshuvranshu.bsky.social",
@@ -46,13 +53,6 @@
     "desc": "Join the conversation and check out my latest text updates.",
     "url": "https://www.threads.com/@its_shuvranshu.alive",
     "icon": "fa-brands fa-threads",
-    "color": "#000000"
-  },
-  {
-    "title": "Twitter / X",
-    "desc": "Get quick updates, developer tweets, and tech insights.",
-    "url": "https://x.com/Its_Shuvranshu",
-    "icon": "fa-brands fa-x-twitter",
     "color": "#000000"
   },
   {

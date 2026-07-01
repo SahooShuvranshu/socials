@@ -1,6 +1,6 @@
 # 🔗 Discord-Style Socials Hub - Shuvranshu Sekhar Sahoo
 
-A premium, standalone linktree alternative designed to look and feel exactly like the Discord user profile modal. Shared with the exact same retro styling, brand assets, and animations as my main portfolio website and static blog.
+A premium, standalone linktree alternative designed to look and feel exactly like the Discord user profile modal. This project is a part of my main website/portfolio portal hosted at [sahooshuvranshu.github.io](https://sahooshuvranshu.github.io).
 
 🌐 **Live Demo:** https://sahooshuvranshu.github.io/socials/
 
@@ -11,7 +11,6 @@ A premium, standalone linktree alternative designed to look and feel exactly lik
 - 🎨 **Discord UI Layout** - Beautiful replicating profile container, custom statuses, and interactive badges with tooltips.
 - 📺 **Full Brand Consistency** - Shared style, colors, shadows, and assets matching the main site and blog.
 - 📱 **Mobile & Tablet Responsive** - Fluid layout scaling for mobile screens.
-- 📁 **Unified Resume Connection** - Easily downloads the resume from the main repo's media location.
 - ⚡ **Zero Dependencies** - High performance, clean CSS structure.
 
 ---
@@ -21,7 +20,6 @@ A premium, standalone linktree alternative designed to look and feel exactly lik
 ```
 socials/
 ├── index.html              # Socials Hub profile interface
-├── LICENSE                 # Project license
 └── README.md               # This file
 ```
 
