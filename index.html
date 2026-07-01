@@ -392,15 +392,15 @@
 
         @media (max-width: 480px) {
             .discord-profile {
-                padding-top: 90px;
+                padding-top: 105px;
             }
 
             .discord-buttons-container {
                 gap: 4px;
                 flex-wrap: wrap;
+                justify-content: flex-end;
             }
 
-            .discord-home-btn,
             .discord-resume-btn,
             .discord-blog-btn {
                 font-size: 11px;
@@ -408,6 +408,13 @@
                 flex: 1 1 calc(50% - 4px);
                 min-width: 90px;
                 max-width: 120px;
+                justify-content: center;
+            }
+
+            .discord-home-btn {
+                font-size: 11px;
+                padding: 7px 10px;
+                flex: 1 1 100%;
                 justify-content: center;
             }
         }
